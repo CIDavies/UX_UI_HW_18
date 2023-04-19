@@ -1,0 +1,192 @@
+body {
+    background: #F0EAEA;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Text styles*/
+
+h1 {
+    font-size: 26pt;
+    font-family: 'Yeseva One', Georgia, serif;
+}
+
+.introText {
+    font-size: 20pt;
+    font-family: 'Oxygen', Arial, sans-serif;
+}
+
+h2 {
+    font-size: 20pt;
+    font-family: 'Yeseva One', Georgia, serif;
+}
+
+p {
+    font-size: 16pt;
+    font-family: 'Oxygen', Arial, sans-serif;
+}
+
+.contentLink {
+    text-decoration: underline;
+    font-size: 16pt;
+    font-weight: 700;
+    font-family: 'Oxygen', Arial, sans-serif;
+}
+
+.contentLink:hover {
+    color: #b62496; 
+}
+
+
+
+/*Header styles*/
+
+.navigation {
+    display: flex;
+    align-items:flex-start;
+}
+
+.logo {
+    height: 100px;
+    margin: 1%;
+}
+
+.navigation ul {
+    display: flex;
+    margin-left: auto;
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #1a1a17;
+    padding: 25px 20px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20pt;
+    font-family: 'Oxygen', Arial, sans-serif;
+}
+
+.navigation a:hover {
+    color: #b62496;   
+}
+
+/*Hero styles*/
+
+.heroContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.heroItems {
+    padding: 20px;
+    margin: 20px;
+}
+
+.heroImage {
+    border-radius: 50%;
+    height: 200px;
+    margin: 40px 50px 40px 40px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+/*Work section styles*/
+
+.allWork {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+
+.workCard1 {
+    background-color: #fcb6e8;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+}
+
+.workImg1 {
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+}    
+
+.workCard2 {
+    background-color: #faf2a0;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+}
+
+.workImg2 {
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+}
+
+/*Contact section styles*/
+
+.CTAtext {
+    padding: 20px 10px 10px 10px;
+    margin: 10px;
+    font-size: 24pt;
+    font-family: 'Yeseva One', Georgia, serif;
+    text-align: center;
+}
+
+.contactIcons {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.icon {
+    width: 5%;
+    margin: 1%;
+}
+
+
+/*Footer styles*/
+
+.footerNav {
+    display: flex;
+    align-items: baseline;
+}
+
+.footerNav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align: right;
+}
+
+.footerNav a {
+    text-decoration: none;
+    color: #1a1a17;
+    width: 100px;
+    padding: 25px 20px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20pt;
+    font-family: 'Oxygen', Arial, sans-serif;
+}
+
+.footerNav a:hover {
+    color: #b62496;   
+}
+
+.copyrightText {
+    margin-left: auto;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    font-weight: 300;
+    font-family: 'Oxygen', Arial, sans-serif;
+    font-size: 12pt;
+}
